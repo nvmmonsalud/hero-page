@@ -1,0 +1,35 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #ff7b00;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff9900;
+}
